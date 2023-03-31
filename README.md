@@ -51,4 +51,14 @@ The information gain is defined by using the general definition of the entropy a
 
 ![image](https://user-images.githubusercontent.com/83886065/229232520-c73f0e70-74a6-484f-a69c-1048c318def4.png)
 
+![image](https://user-images.githubusercontent.com/83886065/229232968-7a21f9c3-23d6-4e4b-b13d-ab36bd6968f1.png)
+
+![image](https://user-images.githubusercontent.com/83886065/229233011-8dbf9c54-2256-466f-b223-8a644c92beda.png)
+
+Figure 2: example of Decision tree visualization (not all the tree is displayed, and this tree has been trained on
+a different dataset.)
+
+![image](https://user-images.githubusercontent.com/83886065/229233073-2d3ba029-a8ea-4381-8ac7-2954ea2eca6b.png)
+
+
 
