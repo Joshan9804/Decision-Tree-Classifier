@@ -60,5 +60,20 @@ a different dataset.)
 
 ![image](https://user-images.githubusercontent.com/83886065/229233073-2d3ba029-a8ea-4381-8ac7-2954ea2eca6b.png)
 
+## Step 3 - Evaluation
+Now that you have an automatic process to train decision trees, you can evaluate the accuracy of your tree on
+the provided datasets. For that, evaluate your decision tree using a 10-fold cross validation on both the clean
+and noisy datasets. You should expect that slightly different trees will be created with each fold, since the
+training data that you use each time will be slightly different. Use your resulting decision trees to classify your
+data in your test sets.
+
+## Step 4 - Pruning (and evaluation again)
+In order to reduce the performance difference of our decision tree between the clean and noisy dataset, you
+will implement a pruning function based on reducing the validation error. This approach works as follow: for
+each node directly connected to two leaves, evaluate the benefits on the validation error of substituting this
+node with a single leaf (defined according to the training set). If a single leaf reduces or does not change the
+validation error, then the node is pruned and replaced by a single leaf. The tree needs to be parsed several times
+until there is no more node connected to two leaves such that combining them into one leaf will improve the
+
 
 
